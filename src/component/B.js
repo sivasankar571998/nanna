@@ -17,8 +17,8 @@ const ComponentB = () => {
             </div>
             <form className="form" onSubmit={onSubmit}>
             <input type="text" onChange={(e)=> setName(e.target.value)}/>
-            <input type="submit"/>
-            <button>hello</button>
+            <input type="submit" className="btn btn-primary"/>
+            <button className="btn btn-primary">hello</button>
         </form>
         </div>
       
