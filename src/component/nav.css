@@ -1,0 +1,38 @@
+.na {
+    font-size: 25px;
+}
+.ka {
+    background-color: red;
+    color: white;
+    padding: 2px;
+    border-radius: 7px;
+}
+
+.va{
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+    
+}
+.ia{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.lal{
+    margin-top: 10px;
+}
+.nav-hei {
+    height: 100px;
+}
+.haha {
+    text-align: center;
+}
+
+@media (max-width: 575.98px) {
+    .haha {
+        display: none;
+    }
+    .keka {
+        display: none;
+    }
+}

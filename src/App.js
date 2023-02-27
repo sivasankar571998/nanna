@@ -1,33 +1,18 @@
-import React,{useState,createContext} from 'react'
-import ComponentA from './component/A.js'
-import ComponentB from './component/B.js'
-//import axios from 'axios'
-export  const store = createContext();
-const App = () => {
-  
-  const [data,setData] = useState([
-    {
-      brandname: "nokia"
-    },
-    {
-      brandname: "airtel"
-    },
-    {
-      brandname: "jio"
-    }
-  ])
-  
-  
-  //console.log(name)
-  return(
-    <store.Provider value={[data,setData]}>
-    <center>
-     <ComponentA/>
-     <ComponentB/>
-     
-        
-    </center>
-    </store.Provider>
+import React from 'react'
+import Corosel from './component/corosel.js'
+import Cards from './component/cards.js'
+import Nav from './component/nav.js'
+//import logo from './image/sai.jpg'
+
+function App() {
+  return (
+    <>
+    <Nav />
+    <Corosel />
+    <Cards />
+    </>
+    
   )
 }
+
 export default App
