@@ -1,17 +1,14 @@
 import React from 'react'
-import Corosel from './component/corosel.js'
-import Cards from './component/cards.js'
-import Nav from './component/nav.js'
-//import logo from './image/sai.jpg'
-
+import Form from './multiline-form/form.js'
 function App() {
   return (
-    <>
-    <Nav />
-    <Corosel />
-    <Cards />
-    </>
-    
+    <div className="container ">
+    <div className="bg-success row justify-content-center align-items-center " style={{marginTop: "11%"}}>
+      <div className="col">
+     <Form />
+     </div>
+    </div>
+    </div>
   )
 }
 
